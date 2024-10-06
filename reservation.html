@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Royal Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="assets/logo.jpg" alt="Royal restaurant">
+        </div>
+        <ul>
+            <li class="item"><a href="home.html">Home</a></li>
+            <li class="item"><a href="menu.html">Menu</a></li>
+            <li class="item"><a href="reservation.html">Reservation</a></li>
+             <li class="item"><a href="gallery.html">Gallery</a></li>
+</ul>
+    </nav>
+    <section id="reservation">
+        <div class="res_title">Make a Reservation</div>
+    <div class="res_form_container">
+        <form action="#" id="res_form" class="res_form">
+            <input type="text" placeholder="Enter your Name" class="res_txt" required="required">
+            <input type="email" placeholder="Enter your email" class="res_txt" required="required">
+            <input type="date" class="res_input" required="required">
+            <input type="time" class="res_input" required="required">
+            <select class="res_select">
+                    <option disabled="" selected="">2 person</option>
+                    <option>3 person</option>
+                    <option>4 person</option>
+                    <option>5 person</option>
+                    <option>6 person</option>
+            </select>
+            <button class="res_button">Make a Reservation</button>
+        </form>
+    </div>
+	</section>
+</body>
+</html>

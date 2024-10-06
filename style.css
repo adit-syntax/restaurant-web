@@ -24,8 +24,9 @@
 margin: 10px 34px;
 }
 #logo img{
-height: 56px;
+height: 70px;
 margin: 3px 6px;
+border-radius: 5px;
 }
 #navbar ul{
     display: flex;
@@ -83,3 +84,178 @@ margin: 3px 6px;
     color:rgba(255, 60, 11, 0.788);
     text-align: center;
 }
+
+
+
+
+/* Reservation */
+#reservation{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+#reservation::before{
+    content: "";
+    background:url(./assets/reservations.jpg)  no-repeat top center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;    
+    z-index: -1;
+    opacity: 0.9;
+}
+.res_title
+{
+	font-size: 48px;
+	color: #FFFFFF;
+	font-weight: 400;
+	line-height: 0.75;
+	margin-top: 17px;
+}
+.res_form_container
+{
+	margin-top: 72px;
+    position:relative;
+	left:110px;
+}
+::placeholder {
+    color: white;
+    opacity: 0.8; 
+  }
+.res_txt
+{
+	background: transparent;
+	width: 210px;
+	height: 52px;
+	border: solid 2px #c4ab9f;
+	font-size: 16px;
+	color: #FFFFFF;
+	padding-left: 25px;
+	outline: none;
+}
+.res_input
+{
+	background: transparent;
+	width: 210px;
+	height: 52px;
+	border: solid 2px #c4ab9f;
+	font-size: 16px;
+	color: #FFFFFF;
+	padding-left: 25px;
+	outline: none;
+}
+.res_select
+{
+
+    background: transparent;
+	width: 210px;
+	height: 52px;
+	border: solid 2px #c4ab9f;
+	font-size: 16px;
+	color: #FFFFFF;
+	padding-left: 25px;
+	outline: none;
+}
+.res_select option
+{
+	color: #282828;
+}
+.res_button
+{
+	width: 216px;
+	height: 48px;
+	background: #c4ab9f;
+	color: #FFFFFF;
+	border: none;
+	outline: none;
+	margin-top: 42px;
+	font-size: 18px;
+	cursor: pointer;
+} 
+
+
+
+/* footer */
+.footer
+{
+	width: 100%;
+	background: #1d0404;
+	padding-top: 30px;
+	padding-bottom: 60px;
+}
+
+
+.footer_logo_title
+{
+	font-size: 57px;
+	line-height: 0.75;
+	color: #FFFFFF;
+}
+.footer_logo_subtitle
+{
+	font-size: 19px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	letter-spacing: 0.680em;
+	line-height: 0.75;
+	margin-top: 17px;
+}
+
+.footer_about p
+{
+	color: #a5a4a4;
+}
+.footer_contact ul li:not(:last-child)
+{
+	margin-bottom: 15px;
+}
+.footer_contact_title
+{
+	width: 61px;
+	height: 21px;
+	font-size: 16px;
+	color: #FFFFFF;
+	line-height: 21px;
+	background: #c49a8f;
+	padding-left: 8px;
+	margin-right: 11px;
+}
+.footer_contact_text
+{
+	font-size: 16px;
+	color: #FFFFFF;
+	line-height: 21px;
+}
+
+.social-section {
+    padding: 60px 10%;
+    text-align: center;
+}
+.social-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.social-section p {
+    color: #ccc;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+.social-section social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.social-links a {
+    font-size: 36px;
+    color: #fff;
+    transition: transform 0.3s, color 0.3s;
+}
+.social-links a:hover {
+    transform: scale(1.2);
+    color: #007bff;
+
+}
+
