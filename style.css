@@ -243,19 +243,23 @@ border-radius: 5px;
     font-size: 1.1rem;
     margin-bottom: 20px;
 }
-.social-section social-links {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
+
 .social-links a {
     font-size: 36px;
-    color: #fff;
+    padding: 20px;
     transition: transform 0.3s, color 0.3s;
 }
-.social-links a:hover {
-    transform: scale(1.2);
-    color: #007bff;
-
+#footer{
+    display: flex;
+    align-items: center;
 }
-
+#navbar::before{
+    content: "";
+    background-color: rgb(8, 8, 8);
+    position: absolute;
+    height: 100%;
+    width: 100%;    
+    z-index: -1;
+    opacity: 0.4;
+    
+    }
